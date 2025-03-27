@@ -9,6 +9,15 @@ public class EmployeeEntity {
     private String gender;
     private double salary;
 
+    public EmployeeEntity(String firstName, String lastName, int departmentId, String joinedDate, String gender, double salary) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.departmentId = departmentId;
+        this.joinedDate = joinedDate;
+        this.gender = gender;
+        this.salary = salary;
+    }
+
     public String getFirstName() {
         return firstName;
     }
